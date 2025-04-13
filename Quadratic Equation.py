@@ -45,8 +45,8 @@ class QuadraticEquation():
             root2 = (self.__b + sqrt(disc))/(2*self.__a)
             print(root2)
 
-
-qe = QuadraticEquation(3,5,2)
+#Enter the values of a,b and c
+qe = QuadraticEquation(2,6,7)
 qe.getDiscriminant()
 qe.getRoot1()
 qe.getRoot2()
